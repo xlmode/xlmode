@@ -1,0 +1,11 @@
+---
+application:
+  name: "xlmode36"
+  project: "ms1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-xlmode36"
+  routes:
+  - application_name: "xlmode36"
+    paths:
+    - "/*"
